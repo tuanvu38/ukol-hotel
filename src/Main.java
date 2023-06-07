@@ -41,7 +41,7 @@ public class Main {
         //Pokoj 2
         System.out.println(""+room2.getName()+" "+room2.getRoomNumber1()+", "+room2.getRoomType()+", "+room2.getRoomView()+", "+room2.getPriceOfOneNight()+" Kč/noc: ");
         ListOfBookings freeBooking = new ListOfBookings();
-        Booking booking0 = new Booking("volná rezervace");
+        Booking booking0 = new Booking("bez rezervace");
         freeBooking.addBooking0(booking0);
         freeBooking.printBooking0();
 
